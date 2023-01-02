@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+
+.Main ul {
+  list-style: none;
+  margin: 2rem auto;
+  padding: 0;
+  width: 40rem;
+}
+.Main ul li {
+  margin: 1rem 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: #f7f5ef;
+}
+
+.Main form {
+  width: 40rem;
+  margin: 2rem auto;
+}
+
+.Main form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.Main form input {
+  display: block;
+  width: 100%;
+  font-size: 1.5rem;
+  font: inherit;
+  border: none;
+  outline: none;
+  background-color: bisque;
+  padding: 0.8rem;
+  border-bottom: 2px solid black;
+}
+
+.Main form button {
+  width: fit-content;
+  font-size: 1.5rem;
+  font: inherit;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  box-shadow: inset 2px 8px 10px rgba(55, 28, 28, 0.4);
+  background-color: goldenrod;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.Main form button:hover {
+    opacity: 0.8;
+}
